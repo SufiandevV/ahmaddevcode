@@ -18,10 +18,980 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+}
+
+.cart-heading {
+  width: 214px;
+  height: 40px;
+  font-family: 'Helvetica Now Display' !important;
+  font-style: normal !important;
+  font-weight: 900 !important;
+  font-size: 56px !important;
+  line-height: 120% !important;
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0125em;
+  color: #0F0D33 !important;
+}
+
+.single-cart-heading {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+
+
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Midnight */
+
+  color: #0F0D33;
+}
+
+.cart-item-subheading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  /* identical to box height, or 17px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Grape */
+
+  color: #333050;
+
+}
+
+.cart-subheading-bold {
+  font-weight: 700;
+
+}
+
+.cart-topheadings {
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 0px;
+  /* gap: 100px; */
+
+  /* width: 1176.36px; */
+  height: 57px;
+  align-items: center;
+  padding: 0px 5px;
+  background: #F2F2F5;
+
+}
+
+.subtotal-price {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 140%;
+  /* or 45px */
+
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  /* Linear Gradient */
+
+  background: linear-gradient(269.94deg, #5636C9 12.2%, #2B2591 88.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+}
+
+
+
+
+
+.navbg {
+  background: #fcfcfe;
+  border-bottom: 1px solid rgba(15, 13, 51, 0.15);
+}
+
+.navlinks {
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fcfcfe;
+}
+
+.navlinks2 {
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.navlinks1 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.navlinks5 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+html {
+  font-family: var(--font-HelveticaNowDisplay);
+}
+
+.followus {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 140%;
+  color: #fcfcfe;
+}
+
+.followus1 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #6b43fb;
+}
+
+.bread {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #0a0a10;
+}
+
+.nameofnft {
+  background: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbutton {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fcfcfe;
+  background: linear-gradient(180deg, #151247 0%, #0f0d33 100%);
+  border-radius: 8px;
+  padding: 12px 18px;
+}
+
+
+.carddesign {
+  background: #111111;
+  box-shadow: 0px 36px 24px rgba(51, 48, 80, 0.05);
+  border-radius: 22.3184px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.carddesignsmalll {
+  background: #111111;
+  box-shadow: 0px 36px 24px rgba(51, 48, 80, 0.05);
+  border-radius: 22.3184px;
+  height: fit-content;
+}
+
+.carddesignf5 {
+  background: #111111;
+  box-shadow: 0px 36px 24px rgba(51, 48, 80, 0.05);
+  border-radius: 22.3184px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.frame1carddesign {
+  background: #ffffff;
+  border-color: black;
+  border: solid;
+  height: fit-content;
+  width: fit-content;
+}
+
+.frame1carddesignsmall {
+  background: #ffffff;
+  border-color: black;
+  border: solid;
+}
+
+.hape {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  background: linear-gradient(96.39deg,
+      #1c1c1c -9.54%,
+      #ffffff 49.6%,
+      #303030 105.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hapesmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  background: linear-gradient(96.39deg,
+      #1c1c1c -9.54%,
+      #ffffff 49.6%,
+      #303030 105.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.serialnumber {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5523px;
+  color: rgba(253, 247, 250, 0.8);
+}
+
+.serialnumbersmall4 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.5523px;
+  color: rgba(253, 247, 250, 0.8);
+}
+
+.frametext {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  color: #fcfcfe;
+  opacity: 0.5;
+}
+
+.frametextsmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3px;
+  color: #fcfcfe;
+  opacity: 0.5;
+}
+
+.qrcodeopacity {
+  opacity: 0.5;
+}
+
+.frame5text {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  color: #fcfcfe;
+}
+
+.frame5textsmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 11px;
+  color: #fcfcfe;
+}
+
+.serialnumberframe5 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5523px;
+  color: #fcfcfe;
+}
+
+.serialnumberframe5small {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.5523px;
+  color: #fcfcfe;
+}
+
+.attributes {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.6997px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fcfcfe;
+  padding: 5px 15px;
+  background: #242424;
+  border-radius: 7.0799px;
+  opacity: 0.8;
+}
+
+.attributessmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.6997px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #fcfcfe;
+  padding: 5px 15px;
+  background: #242424;
+  border-radius: 7.0799px;
+  opacity: 0.8;
+}
+
+.up {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  color: #fcfcfe;
+  opacity: 0.6;
+}
+
+.down {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fcfcfe;
+}
+
+.upsmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4px;
+  color: #fcfcfe;
+  opacity: 0.6;
+}
+
+.flex1 {
+  justify-content: space-between;
+  margin-top: 16px;
+  display: flex;
+}
+
+.downsmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4px;
+  color: #fcfcfe;
+}
+
+.frame1text {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+  color: #0f0d33;
+}
+
+.frame1textsmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  color: #0f0d33;
+}
+
+.serialnumberframe5 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5523px;
+  color: #0f0d33;
+}
+
+/* .serialnumberframe5small {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5523px;
+  color: #0f0d33;
+} */
+/* Hide scrollbar indicator */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+
+/* Optional: add a border around the scrollable content to indicate where scrolling is possible */
+.scrollable-content {
+  border: 1px solid #ccc;
+}
+
+.justattribute {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  color: #333050;
+}
+
+.justattributesmall {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 7px;
+  color: #333050;
+}
+
+.justattribute11 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #333050;
+}
+
+.justattribute11 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  color: #333050;
+}
+
+.justframe1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.sixtey {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.canvasprint {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+
+  color: #0f0d33;
+}
+
+.canvasprintreview {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 31px;
+
+  color: #0f0d33;
+}
+
+.stars {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #333050;
+}
+
+.happy {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #333050;
+
+  opacity: 0.7;
+}
+
+.paracanvas {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333050;
+}
+
+.paracanvaslanding {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333050;
+}
+
+.exapnadimage {
+  height: 187px;
+  width: 100%;
+  object-fit: fill;
+}
+
+.paracanvasoo {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333050;
+}
+
+.paracanvasreview {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #333050;
+}
+
+.paracanvas1 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #333050;
+}
+
+.add {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #333050;
+}
+
+.buttonandinput {
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 8px;
+}
+
+.buttontext {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: #6b43fb;
+}
+
+.tabtext {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+
+  text-transform: uppercase;
+}
+
+.price {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+
+  background: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.buynow {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fcfcfe;
+  background: linear-gradient(180deg, #151247 0%, #0f0d33 100%);
+  border-radius: 8px;
+}
+
+.addtocart {
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 8px;
+}
+
+.uppercasees {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%) "";
+}
+
+.randi {
+  background: #fcfcfe;
+  border: 1px solid rgba(15, 13, 51, 0.08);
+  box-shadow: 0px 4px 12px rgba(58, 55, 120, 0.06);
+  border-radius: 1000px;
+}
+
+.Dan {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #0f0d33;
+}
+
+.whypoint {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: -0.0125em;
+  color: #0f0d33;
+}
+
+.featurestext {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #0f0d33;
+}
+
+.web3 {
+  padding: 4px 30px 4px 30px;
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+.web4 {
+  padding: 4px 30px 4px 30px;
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 8px;
+  border-left-width: 4px;
+}
+
+.nftp1 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  color: #0f0d33;
+}
+
+.nftp2 {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #333050;
+}
+
+.nftdiv {
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 16px;
+}
+
+.gridd {
+  column-gap: 91px;
+}
+
+
+
+
+/* Start from 2  */
+.bg-cover {
+  background-image: url('../../public/Hero Section - 11.png');
+}
+
+.randi {
+  background: #fcfcfe;
+  border: 1px solid rgba(15, 13, 51, 0.08);
+  box-shadow: 0px 4px 12px rgba(58, 55, 120, 0.06);
+  border-radius: 1000px;
+}
+
+.uppercasees {
+  font-family: "Helvetica Now Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: linear-gradient(269.94deg, #5636c9 12.2%, #2b2591 88.4%) "";
+}
+
+.bring {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 120%;
+  letter-spacing: -0.0125em;
+  text-transform: capitalize;
+  color: #0F0D33;
+
+}
+
+.bringver {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+
+  color: #0F0D33;
+
+  transform: rotate(-90deg);
+}
+
+
+.gradient-text {
+  background: linear-gradient(269.94deg, #5736CC 100%, #221D73 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.flexexpand {
+  background: rgba(51, 48, 80, 0.05);
+  border-radius: 24px;
+}
+
+.number1 {
+  font-family: 'Helvetica Now Display';
+  font-size: 24px;
+  line-height: 140%;
+  background: linear-gradient(180deg, #151247 0%, #0F0D33 100%);
+  border-radius: 16px;
+
+  color: #FCFCFE;
+}
+
+.second-div {
+  display: none;
+}
+
+.first-div:hover+.second-div {
+  display: block;
+}
+
+.illustrationimage {
+  height: 606px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.addtocart {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 120%;
+  letter-spacing: -0.0125em;
+  color: #0F0D33;
+
+}
+
+
+.titlehd {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.cartnft {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #0F0D33;
+}
+
+.subtotal {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #333050;
+}
+
+.subtotal11 {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #333050;
+}
+
+.inputnumber {
+
+  background: #EBEBEE;
+  border-radius: 8px;
+}
+
+.fourhun {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0F0D33;
+
+}
+
+.dust {
+  background: #EBEBEE;
+  border-radius: 20px;
+}
+
+.continueshopping {
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9D9D9F;
+}
+
+.bgcon {
+  background: #F2F2F2;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.paycard{
+  border: 1px solid rgba(15, 13, 51, 0.15);
+
+}
+
+.copen{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 160%;
+text-transform: capitalize;
+color: #6B43FB;
+}
+.tottall{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #000000;
+}
+
+.payoutbutton{
+  background: linear-gradient(180deg, #151247 0%, #0F0D33 100%);
+border-radius: 8px;
+font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FCFCFE;
+}
+@media (max-width: 1026px) and (min-width: 724px) {
+  .container {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 }
