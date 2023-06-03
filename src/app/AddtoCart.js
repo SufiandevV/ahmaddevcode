@@ -19,29 +19,29 @@ const AddtoCart = () => {
             <h1 className='cart-heading' style={{ margin: '0px auto', textAlign: 'center', fontSize: '15px' }}>My Cart</h1>
             <h2 className='mx-auto mt-5 text-center navlinks2'>HOME <span class='px-2'>/</span> <span class='text-[#2B2592]'>MY CART</span ></h2>
 
-            <div class="container mx-auto">
-                <div class="flex my-10 w-[90vw] mx-auto">
-                    <div class=" w-[1176px]">
+            <div class="container mx-auto ">
+                <div class="flex my-10 mx-auto flex-wrap gap-x-3 flex-col lg:flex-row ">
+                    <div class="wwww flex-1">
 
-                        <div class="flex  mb-5 cart-topheadings">
+                        <div class="flex  mb-5 cart-topheadings px-2">
                             <h3 class="font-semibold text-gray-600 text-xs uppercase w-2/5 titlehd">Products</h3>
                             <h3 class="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 titlehd pl-[61px]">Quantity</h3>
                             <h3 class="font-semibold text-center text-gray-600 text-xs uppercase w-1/5 titlehd pl-[84px]">Total</h3>
                         </div>
-                        
 
-<ShippingCard/>
-<ShippingCard/>
 
-                        <div class='flex py-2 px-6 bgcon'>
+                        <ShippingCard />
+                        <ShippingCard />
 
-                            <p class='continueshopping'>Continue Shopping</p>
+                        <div class='flex py-2 bgcon'>
+
+                            <p class='continueshopping px-2'>Continue Shopping</p>
                             <img src="./Trailing Icon Wrapper.png" alt="Trailing Icon Wrapper.png" srcset="" />
 
                         </div>
                     </div>
 
-                    <div id="summary" class="w-1/4 px-8 py-10 paycard mx-3 h-fit">
+                    <div id="summary" class="w-[100%] lg:w-fit mt-6 px-8 py-10 paycard h-fit">
                         <h1 class="cartnft">Cart Total</h1>
                         <div class="flex justify-between mt-5 mb-5">
                             <span class="font-semibold text-sm uppercase subtotal11">Sub Total</span>
@@ -55,7 +55,7 @@ const AddtoCart = () => {
 
                                 <div class="flex items-center mb-4 justify-between gap-x-1">
                                     <label className="inline-flex items-center gap-x-1">
-                                    <span className="ml-2 subtotal11 whitespace-nowrap">Flat Rate : $245</span>
+                                        <span className="ml-2 subtotal11 whitespace-nowrap">Flat Rate : $245</span>
 
                                         <input
                                             type="checkbox"
@@ -71,7 +71,7 @@ const AddtoCart = () => {
                                     </label>
                                 </div>
                                 <div class="flex items-center justify-between gap-x-1">
-                                <span className="ml-2 subtotal11">Local Price</span>
+                                    <span className="ml-2 subtotal11">Local Price</span>
 
                                     <label className="inline-flex items-center gap-x-1">
                                         <input
@@ -90,8 +90,8 @@ const AddtoCart = () => {
 
 
                             </div>
-                            
-                        </div> 
+
+                        </div>
 
 
                         <p class='mt-8 copen'>Have a coupon?</p>
@@ -108,7 +108,7 @@ const AddtoCart = () => {
                 </div>
             </div>
 
-            
+
         </div>
     )
 }

@@ -989,6 +989,9 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #FCFCFE;
 }
+.www{
+  width: inherit;
+}
 @media (max-width: 1026px) and (min-width: 724px) {
   .container {
     flex-direction: column !important;

@@ -13,12 +13,12 @@ function ShippingCard() {
         setRating(newRating);
     };
     return (
-        <div class="flex items-center -mx-8 px-6 py-5">
-                            <div class="flex w-2/5">
+        <div class="flex items-center flex-col  lg:flex-row pr-8 py-5"> 
+                            <div class="flex flex-col  lg:flex-row">
                                 <div class="w-[12rem]">
                                     <img class="h-[100%] w-[100%]" src="./Thumbnail1.png" alt="Thumbnail1.png" />
                                 </div>
-                                <div class="flex flex-col gap-y-2 ml-4 flex-grow">
+                                <div class="flex flex-col gap-y-2 ml-4 mr-[51px] flex-grow">
                                     <span class="cartnft">NFT Canvas Print</span>
                                     <div className="flex gap-x-3 items-center">
                                         <div className="flex gap-x-1 whitespace-nowrap items-baseline">
@@ -52,25 +52,28 @@ function ShippingCard() {
                             </div>
                         
                             
-                            <div class="flex justify-center w-1/5 ">
-                                <div class='inputnumber flex p-3'>
+                            <div class="flex justify-center flex-col lg:flex-row ">
+                                <div class='inputnumber flex p-3 items-center justify-center'>
                                     <svg class="fill-current text-gray-600 w-3" viewBox="0 0 448 512"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
                                     </svg>
 
-                                    <input class="mx-2 text-center w-8 bg-[#EBEBEE]" type="text" value="1" />
+                                    <input placeholder='1' class="mx-2 text-center w-8 bg-[#EBEBEE]" type="text" />
 
                                     <svg class="fill-current text-gray-600 w-3" viewBox="0 0 448 512">
                                         <path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z" />
                                     </svg>
                                 </div>
                             </div>
-                            <span class="text-center w-1/5 fourhun">$400.00</span>
-                            <div class='flex dust p-2 items-center px-4'>
+                           <div class='w-[100%] mt-3 space-y-3'>
+                           
+                           <span class="text-center w-[100%] justify-center items-center flex fourhun">$400.00</span>
+                            
+                           </div>
+                           <div class='flex dust p-2 justify-center items-center px-6'>
                                 <img src="./Delete.png" alt="" srcset="" />
-                                <span class="text-center w-1/5 subtotal11 ">Remove</span>
+                                <span class="text-center subtotal11 ">Remove</span>
 
                             </div>
-
                         </div>
     )
 }
