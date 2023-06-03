@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import AddtoCart from './AddtoCart'
-import LandingPage from './LandingPage/LandingPage'
+import CheckoutPage from './CheckoutPage.jsx'
 
 export default function Home() {
   return (
-    <AddtoCart/>
+    <CheckoutPage/>
   )
 }

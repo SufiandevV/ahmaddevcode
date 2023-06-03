@@ -22,17 +22,11 @@ body {
 }
 
 .cart-heading {
-  width: 214px;
-  height: 40px;
   font-family: 'Helvetica Now Display' !important;
   font-style: normal !important;
   font-weight: 900 !important;
   font-size: 56px !important;
   line-height: 120% !important;
-  leading-trim: both;
-  text-edge: cap;
-  display: flex;
-  align-items: center;
   letter-spacing: -0.0125em;
   color: #0F0D33 !important;
 }
@@ -149,7 +143,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .navlinks2 {
-  align-items: center;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   font-family: "Helvetica Now Display";
@@ -736,6 +729,11 @@ html {
   border-radius: 8px;
   border-left-width: 4px;
 }
+.web13 {
+  padding: 4px 12px 4px 12px;
+  border-radius: 8px;
+  border-left-width: 4px;
+}
 
 .web4 {
   padding: 4px 30px 4px 30px;
@@ -992,6 +990,36 @@ color: #FCFCFE;
 .www{
   width: inherit;
 }
+
+.guest{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #0F0D33;
+}
+
+.alreadyhave{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 140%;
+color: #0F0D33;
+}
+
+
+.formcontact{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+letter-spacing: -0.03em;
+color: #333050;
+}
+
+
 @media (max-width: 1026px) and (min-width: 724px) {
   .container {
     flex-direction: column !important;
