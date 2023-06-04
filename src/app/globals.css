@@ -987,6 +987,18 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 color: #FCFCFE;
 }
+
+.payoutbutton1111{
+  background: #6B43FB;
+border-radius: 8px;
+font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FCFCFE;
+}
 .www{
   width: inherit;
 }
@@ -1019,6 +1031,80 @@ letter-spacing: -0.03em;
 color: #333050;
 }
 
+
+.labellabel{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+
+color: #333050;
+}
+
+.inputinput{
+  background: rgba(51, 48, 80, 0.05);
+border-radius: 8px;
+}
+
+.ordersummary{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+text-transform: uppercase;
+color: #0F0D33;
+}
+.printfirst{
+  
+font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+color: #333050;
+}
+
+.printfirst111{
+  
+  font-family: 'Helvetica Now Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: #8C8CF6;
+  }
+
+.printfirst11{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #333050;
+}
+
+.printcartcart{
+  font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+
+color: #333050;
+}
+
+.codeinput{
+  background: #FAFAFA;
+border-radius: 8px;
+}
+
+
+.orderofsummarry{
+  background: rgba(51, 48, 80, 0.05);
+border-radius: 8px;
+
+}
 
 @media (max-width: 1026px) and (min-width: 724px) {
   .container {

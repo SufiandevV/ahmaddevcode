@@ -101,7 +101,7 @@ const AddtoCart = () => {
                                 <span class='tottall'>Total</span>
                                 <span class='tottall'>$600</span>
                             </div>
-                            <button class="py-3 payoutbutton uppercase w-full">Checkout</button>
+                            <button class="py-3 payoutbutton uppercase w-full">Proceed to Pay</button>
                         </div>
                     </div>
 
